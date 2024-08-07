@@ -1,8 +1,8 @@
 return {
-	'ray-x/aurora',
+	'maxmx03/dracula.nvim',
 	lazy = false,
 	priority = 1000,
 	config = function()
-		vim.cmd("colorscheme aurora")
+		vim.cmd("colorscheme dracula")
 	end,
 }
