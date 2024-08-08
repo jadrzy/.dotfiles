@@ -1,3 +1,4 @@
+-- ~/.config/nvim/lua/jchlopak/lazy.lua
 -- Bootstrap lazy.nvim
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"

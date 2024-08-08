@@ -1,3 +1,4 @@
+-- ~/.config/nvim/lua/jchlopak/plugins/harpoon.lua
 return {
     'ThePrimeagen/harpoon',
 

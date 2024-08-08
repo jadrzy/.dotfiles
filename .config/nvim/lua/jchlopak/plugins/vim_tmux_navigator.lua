@@ -1,3 +1,4 @@
+-- ~/.config/nvim/lua/jchlopak/plugins/tmux_navigator.lua
 return {
     'christoomey/vim-tmux-navigator',
     cmd = {

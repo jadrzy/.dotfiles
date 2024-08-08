@@ -1,3 +1,4 @@
+-- ~/.config/nvim/lua/jchlopak/plugins/colorscheme.lua
 return {
 	'maxmx03/dracula.nvim',
 	lazy = false,

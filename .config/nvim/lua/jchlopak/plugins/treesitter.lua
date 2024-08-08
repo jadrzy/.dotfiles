@@ -1,3 +1,4 @@
+-- ~/.config/nvim/lua/jchlopak/plugins/treesitter.lua
 return {
 	'nvim-treesitter/nvim-treesitter',
 	event = { "BufReadPre", "BufNewFile" },
@@ -27,6 +28,7 @@ return {
 				"gitignore",
 				"c",
 				"cpp",
+                "dockerfile",
 			},
 		})
 	end,
