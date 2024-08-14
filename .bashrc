@@ -9,6 +9,9 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias tmux='tmux -2'
 
+# export idf commands for esp programming
+alias idf='source ~/Documents/esp/esp-idf/export.sh'
+
 # .dotfiles Git repository commands setup
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 

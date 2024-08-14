@@ -69,12 +69,17 @@ return {
                 k.set('n', '<F4>', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)
             end
 
+            vim.diagnostic.config({
+                signs = true,
+                virtual_text = false,
+                virtual_lines = false,
+            })
+
             lsp_zero.extend_lspconfig({
                 sign_text = true,
                 lsp_attach = lsp_attach,
                 capabilities = require('cmp_nvim_lsp').default_capabilities()
             })
-
             require('mason-lspconfig').setup({
                 ensure_installed = {
 
