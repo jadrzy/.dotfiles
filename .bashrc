@@ -11,6 +11,11 @@ alias tmux='tmux -2'
 
 # export idf commands for esp programming
 alias idf='source ~/Documents/esp/esp-idf/export.sh'
+alias build='idf.py build'
+alias flash='idf.py flash'
+
+# run putty omitting wayland error
+alias putty='env GDK_BACKEND=x11 putty'
 
 # .dotfiles Git repository commands setup
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
